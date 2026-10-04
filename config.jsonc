@@ -1,0 +1,91 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "display": {
+    "color": {
+      "keys": "blue"
+    },
+    "key": {
+      "type": "both-2"
+    }
+  },
+  "modules": [
+    // "title",
+    // "separator",
+    {
+      "type": "os",
+      "keyColor": "blue"
+    },
+    // "host",
+    {
+      "type": "kernel",
+      "keyColor": "blue"
+    },
+    // "uptime",
+    // "packages",
+
+    "separator",
+
+    {
+      "type": "shell",
+      "keyColor": "red"
+    },
+    // "display",
+    {
+      "type": "de",
+      "keyColor": "red"
+    },
+    {
+      "type": "wm",
+      "keyColor": "red"
+    },
+
+    "separator",
+
+    // "wmtheme",
+    // "theme",
+    // "icons",
+    {
+      "type": "font",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "cursor",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminalfont",
+      "keyColor": "cyan"
+    },
+
+    "separator",
+
+    {
+      "type": "cpu",
+      "keyColor": "green"
+    },
+    {
+      "type": "gpu",
+      "keyColor": "green"
+    },
+    {
+      "type": "memory",
+      "keyColor": "green"
+    },
+    {
+      "type": "disk",
+      "keyColor": "green"
+    },
+    // "swap",
+    // "localip",
+    // "battery",
+    // "poweradapter",
+    // "locale",
+
+    "break",
+    "colors"
+  ]
+}
