@@ -10,7 +10,7 @@
   },
   "modules": [
     // "title",
-    // "separator",
+    // "break",
     {
       "type": "os",
       "keyColor": "blue"
@@ -23,7 +23,7 @@
     // "uptime",
     // "packages",
 
-    "separator",
+    "break",
 
     {
       "type": "shell",
@@ -39,7 +39,7 @@
       "keyColor": "red"
     },
 
-    "separator",
+    "break",
 
     // "wmtheme",
     // "theme",
@@ -61,7 +61,7 @@
       "keyColor": "cyan"
     },
 
-    "separator",
+    "break",
 
     {
       "type": "cpu",
